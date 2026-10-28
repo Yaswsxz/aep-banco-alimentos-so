@@ -1,41 +1,55 @@
-<div align="center">
+<p align="center">
+  <b>UNIVERSIDADE CESUMAR – UNICESUMAR</b><br>
+  <b>BACHARELADO EM ENGENHARIA DE SOFTWARE</b>
+</p>
 
-**UNIVERSIDADE CESUMAR – UNICESUMAR**
-**BACHARELADO EM ENGENHARIA DE SOFTWARE**
+<br>
 
-FELIPE PIVA DA SILVA – 25054343-2
-NICOLLAS AZALIM – 25013758-2
-NIVEA SOFIA DA CAS – 25004647-2
-ROBERTO MÜLLER SANCHES – 25224962-2
-YASMIN FERNANDA DE CARVALHO – 25061121-2
+<p align="center">
+  FELIPE PIVA DA SILVA – 25054343-2<br>
+  NICOLLAS AZALIM – 25013758-2<br>
+  NIVEA SOFIA DA CAS – 25004647-2<br>
+  ROBERTO MÜLLER SANCHES – 25224962-2<br>
+  YASMIN FERNANDA DE CARVALHO – 25061121-2
+</p>
 
-**SIMULADOR PRÁTICO DE NÍVEL DE SISTEMA OPERACIONAL:**
-**BANCO DE ALIMENTOS DE LONDRINA**
+<br><br>
 
+<h1 align="center">SIMULADOR PRÁTICO DE NÍVEL DE SISTEMA OPERACIONAL</h1>
+<h3 align="center">Banco de Alimentos de Londrina</h3>
+
+<br>
+
+<table align="center"><tr><td width="420">
 Documentação técnica do código-fonte apresentada à disciplina de Sistemas Operacionais, como parte da segunda etapa da Atividade de Estudo Programado (AEP) do 4º semestre do curso de Engenharia de Software.
+</td></tr></table>
 
-LONDRINA
-2026
+<br><br>
 
-</div>
+<p align="center">
+  LONDRINA<br>
+  2026
+</p>
+
+<br>
 
 ---
 
 ## SUMÁRIO
 
-1 INTRODUÇÃO
-2 REQUISITOS E EXECUÇÃO
-2.1 Requisitos do ambiente
-2.2 Execução pelo terminal
-2.3 Execução pelo Visual Studio Code
-3 ESTRUTURA DO PROJETO
-4 CENÁRIOS DE SIMULAÇÃO
-4.1 Pipeline do galpão (Produtor/Consumidor)
-4.2 Condição de corrida
-4.3 Prevenção de deadlock
-4.4 Substituição de páginas no cache de consultas (LRU × FIFO)
-5 CONSIDERAÇÕES FINAIS
-REFERÊNCIAS
+- [1 INTRODUÇÃO](#1-introdução)
+- [2 REQUISITOS E EXECUÇÃO](#2-requisitos-e-execução)
+  - [2.1 Requisitos do ambiente](#21-requisitos-do-ambiente)
+  - [2.2 Execução pelo terminal](#22-execução-pelo-terminal)
+  - [2.3 Execução pelo Visual Studio Code](#23-execução-pelo-visual-studio-code)
+- [3 ESTRUTURA DO PROJETO](#3-estrutura-do-projeto)
+- [4 CENÁRIOS DE SIMULAÇÃO](#4-cenários-de-simulação)
+  - [4.1 Pipeline do galpão (Produtor/Consumidor)](#41-pipeline-do-galpão-produtorconsumidor)
+  - [4.2 Condição de corrida](#42-condição-de-corrida)
+  - [4.3 Prevenção de deadlock](#43-prevenção-de-deadlock)
+  - [4.4 Substituição de páginas no cache de consultas (LRU × FIFO)](#44-substituição-de-páginas-no-cache-de-consultas-lru--fifo)
+- [5 CONSIDERAÇÕES FINAIS](#5-considerações-finais)
+- [REFERÊNCIAS](#referências)
 
 ---
 
